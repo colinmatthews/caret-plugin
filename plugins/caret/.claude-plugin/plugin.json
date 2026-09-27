@@ -1,6 +1,6 @@
 {
   "name": "caret",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "Interactive visuals in Claude: understand what your AI built, how a system works, or what your numbers say, drawn right in the chat.",
   "author": {
     "name": "Caret",
