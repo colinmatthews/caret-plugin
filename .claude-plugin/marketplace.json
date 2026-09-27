@@ -1,0 +1,15 @@
+{
+  "name": "caret",
+  "description": "Caret: interactive visuals for Claude and Codex.",
+  "owner": {
+    "name": "Caret",
+    "email": "colin@techforproduct.com"
+  },
+  "plugins": [
+    {
+      "name": "caret",
+      "source": "./plugins/caret",
+      "description": "Interactive visuals in Claude: understand what your AI built, how a system works, or what your numbers say."
+    }
+  ]
+}

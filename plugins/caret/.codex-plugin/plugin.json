@@ -1,0 +1,44 @@
+{
+  "name": "caret",
+  "version": "0.4.4",
+  "description": "Interactive visuals in chat: understand what your AI built, how a system works, or what your numbers say.",
+  "author": {
+    "name": "Caret",
+    "email": "colin@techforproduct.com",
+    "url": "https://learnwithcaret.com"
+  },
+  "homepage": "https://learnwithcaret.com",
+  "repository": "https://github.com/colinmatthews/caret-plugin",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Caret",
+    "shortDescription": "Interactive visuals in chat",
+    "longDescription": "Caret turns answers into visuals you can explore, right in the conversation. Ask what an agent just built, how a system or process works, why a plan ranks things the way it does, or what a set of numbers says, and Caret draws it: flows, architectures, timelines, charts and comparisons you can click through. Visuals are private to your account; you can export an image or GIF, or share a hosted link.",
+    "developerName": "Caret",
+    "category": "Productivity",
+    "capabilities": [
+      "Draws interactive diagrams of systems, flows and processes in the chat",
+      "Charts numbers you paste or ask about: funnels, trends, comparisons",
+      "Explains what an AI agent or coding assistant built, step by step",
+      "Exports a visual as a PNG or looping GIF",
+      "Shares a visual as a hosted link, optionally password protected"
+    ],
+    "defaultPrompt": [
+      "Claude Code says the referral program is done. Walk me through what happens when someone invites a friend.",
+      "What happens to our app if us-east-1 goes down?",
+      "Where do our signups come from, and where do they go?"
+    ],
+    "websiteURL": "https://learnwithcaret.com",
+    "privacyPolicyURL": "https://learnwithcaret.com/privacy",
+    "termsOfServiceURL": "https://learnwithcaret.com/terms",
+    "logo": "./assets/icon-512.png",
+    "composerIcon": "./assets/icon-512.png",
+    "screenshots": [
+      "./assets/screenshots/chatgpt-shipped.png",
+      "./assets/screenshots/chatgpt-cloud.png",
+      "./assets/screenshots/chatgpt-flows.png"
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

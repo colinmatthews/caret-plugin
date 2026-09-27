@@ -1,0 +1,25 @@
+{
+  "name": "caret",
+  "version": "0.4.4",
+  "description": "Interactive visuals in Claude: understand what your AI built, how a system works, or what your numbers say, drawn right in the chat.",
+  "author": {
+    "name": "Caret",
+    "email": "colin@techforproduct.com",
+    "url": "https://learnwithcaret.com"
+  },
+  "homepage": "https://learnwithcaret.com",
+  "repository": "https://github.com/colinmatthews/caret-plugin",
+  "license": "MIT",
+  "keywords": [
+    "diagrams",
+    "visuals",
+    "charts",
+    "product management"
+  ],
+  "mcpServers": {
+    "caret": {
+      "type": "http",
+      "url": "https://mcp.learnwithcaret.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "caret",
+  "interface": { "displayName": "Caret" },
+  "plugins": [
+    {
+      "name": "caret",
+      "source": { "source": "local", "path": "./plugins/caret" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}
